@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    color:#a52a90;
+    margin: 0;
+    background-color:aqua;
+    
+}
+
+h1{
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+label{
+    display: block;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 650;
+    color:black;
+    margin-top: 1rem;
+}
+
+input{
+    display: block;
+    width:18rem;
+    padding: 1.3rem;
+    margin-left: 38rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    border-radius: 8px;
+    height: 12px;
+}
+
+button{
+    font-size: 1.4rem;
+    background-color: rgb(43, 226, 52);
+    color:white;
+    padding: 5px;
+    margin-left: 1.5rem;
+}
+
+#output{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 600;
+    color: blue;
+}
+
+footer{
+    margin-top: 20rem;
+}
