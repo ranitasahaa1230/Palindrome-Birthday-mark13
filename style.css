@@ -1,53 +1,85 @@
-body{
-    text-align: center;
-    color:#a52a90;
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
     margin: 0;
-    background-color:greenyellow;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
-    margin: 2rem;
+    padding-top: 3rem;
+    color:brown;
     font-size: 2.5rem;
 }
 
+body{
+    text-align: center;
+    color:#a52a90;
+    font-size: 1.5rem;
+}
+
+
 label{
     display: block;
-    align-items: center;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
     font-weight: 650;
+    padding-top: 1rem;
+    font-size: 2rem;
     color:black;
     margin-top: 1rem;
 }
 
 input{
     display: block;
-    width:18rem;
-    padding: 1.3rem;
-    margin-left: 38rem;
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin-top: 4px;
-    border-radius: 8px;
-    height: 12px;
+    margin:auto;
+    width: 20.3rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    border-radius: 14px;
+    margin-top: 1.5rem;
 }
 
 button{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     background-color: rgb(43, 226, 52);
-    color:white;
-    padding: 5px;
-    margin-left: 1.5rem;
+    color: aliceblue;
+    margin:auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 #output{
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1.2rem;
     font-weight: 600;
     color: blue;
 }
 
 footer{
-    margin-top: 20rem;
+    margin-top: 12rem;
+    background-color:#6B7280; 
 }
+
+p{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Merienda', cursive;
+    padding: 0.8rem;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+img:hover{
+    background-color: blue;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
