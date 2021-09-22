@@ -86,13 +86,13 @@ function getNextDate(date){
     if(isLeapYear(year)){ // 2020 => true
        if(day > 29){ // false
          day = 1;
-         month++;  // increment the month
+         month++; 
        }
     }
     else {
        if(day > 28){
          day = 1;
-         month++;  // increment the month
+         month++;  
        }
     }
   }
@@ -101,7 +101,7 @@ function getNextDate(date){
     //  check if the day exceeds the max days in month
     if(day > daysInMonth[month - 1]){ 
       day = 1; 
-      month++;  // increment the month
+      month++;  
     }
   }
 
