@@ -10,19 +10,21 @@
 </head>
 <body>
     <div class="main">
-      <h1>Palindrome Birthday!</h1>
-
-    <div class="container">
+      <h1>Enter your Birthdate and we will tell you if your Birthdate is a Palindrome or not!</h1>
+      <main>This app checks your birthdate in 4 formats: <br> yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy<br>
+        <article>e.g. if your birthdate is 01 Aug 1995, then app will check for 19950801, 01081995, 080195, 1081995<br></article>
+      </main>
+    <form id="form">
   
-          <label for="date-of-birth">Enter your birthday date:
-              <input type="date" id="date-of-birth"/>
+          <label for="date-of-birth">
+              <input type="date" id="date-of-birth" required/>
           </label>
   
-          <button id="show-btn">Show</button>
+          <button id="submit">Check</button>
   
           <div id="output"></div>
   
-      </div>
+      </form>
     </div>
 
       <footer>

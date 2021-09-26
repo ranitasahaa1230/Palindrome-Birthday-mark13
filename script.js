@@ -135,10 +135,14 @@ function getNextPalindromeDate(date){
 }
 
 var dateInput = document.querySelector('#date-of-birth');
-var showBtn= document.querySelector('#show-btn');
+// var showBtn= document.querySelector('#submit');
 var result= document.querySelector('#output');
+let form = document.querySelector('#form');
+
 
 function clickHandler(e){
+  e.preventDefault();
+
   var bdayStr = dateInput.value; 
   
   if(bdayStr !== ''){
@@ -153,15 +157,15 @@ function clickHandler(e){
     var isPalin = checkPalindromeForAllDateFormats(date);
 
     if(isPalin){
-       result.innerText = 'Yayyyy! your birthday is a palindrome!!😍🎉';
+       result.innerText = 'Yayyyy! Your birthday is a palindrome!!😍🎉';
     }
     else {
       var [ctr, nextDate] = getNextPalindromeDate(date);
 
-      result.innerHTML = `OHH OHH! Your birthday is not a palindrome!!😓 <br>
-      The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`;
+      result.innerHTML = `OOPS! Your birthday is not a palindrome. <br>
+      The nearest palindrome is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`;
     }
   }
 }
 
-showBtn.addEventListener('click', clickHandler);
+form.addEventListener("submit", clickHandler);

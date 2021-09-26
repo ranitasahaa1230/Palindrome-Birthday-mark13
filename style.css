@@ -7,9 +7,11 @@
 }
 
 h1{
+    max-width: 640px;
     padding-top: 3rem;
     color:brown;
     font-size: 2.5rem;
+    margin: auto;
 }
 
 body{
@@ -19,45 +21,63 @@ body{
 }
 
 
-label{
+/* label{
     display: block;
     margin-bottom: 0.8rem;
     font-weight: 650;
     padding-top: 1rem;
     font-size: 2rem;
-    color:black;
+    color:brown;
     margin-top: 1rem;
-}
+} */
 
 input{
     display: block;
     margin:auto;
-    width: 20.3rem;
+    width: 15.3rem;
     padding: 1rem;
+    color:brown;
     font-size: 1.4rem;
-    border-radius: 14px;
-    margin-top: 1.5rem;
+    border-radius: 18px;
+    margin-top: 1.8rem;
 }
 
 button{
     font-size: 1.5rem;
-    background-color: rgb(43, 226, 52);
-    color: aliceblue;
+    background-color: brown;
+    color: white;
     margin:auto;
     padding: 0.5rem;
     margin-top: 1rem;
+    border: 1px solid brown;
 }
 
 #output{
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1.2rem;
     font-weight: 600;
-    color: blue;
+    color:#B91C1C;
+    margin: auto;
+    max-width: 690px;
+    margin-top: 1rem;
+}
+
+article{
+    color:#a52a90;
+}
+main{
+        max-width: 630px;
+        margin: auto;
+        margin-top: 1rem;
+        font-family: 'Merienda', cursive;
+        margin-bottom: 1rem;
+        color: black;
+
 }
 
 footer{
     background-color:#6B7280; 
-    margin-top: 11.5rem;
+    margin-top: 3.5rem;
 }
 
 p{
